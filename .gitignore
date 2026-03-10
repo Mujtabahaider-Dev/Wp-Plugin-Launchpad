@@ -1,0 +1,27 @@
+# WordPress Specific
+node_modules/
+vendor/
+*.log
+.DS_Store
+Thumbs.db
+*.zip
+/build/
+
+# Local configuration
+.env
+.idea/
+.vscode/
+wp-config.php
+
+# PHP logs
+php_error.log
+error_log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

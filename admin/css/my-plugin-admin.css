@@ -1,0 +1,48 @@
+/**
+ * Admin Styles for My Plugin
+ */
+
+.my-plugin-admin-content {
+    margin-top: 20px;
+}
+
+.my-plugin-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.my-plugin-card h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Spinner adjustment */
+#my-plugin-spinner {
+    float: none;
+    margin: -4px 10px 0;
+}
+
+/* Tabs */
+.my-plugin-tab-content {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 20px;
+}
+
+.nav-tab-wrapper {
+    margin-bottom: 0;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 782px) {
+    .my-plugin-settings-form input[type="text"],
+    .my-plugin-settings-form textarea {
+        width: 100%;
+    }
+}

@@ -1,0 +1,34 @@
+/**
+ * Public Styles for My Plugin
+ */
+
+.my-plugin-public-display {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px 0;
+    background: #f9f9f9;
+}
+
+.my-plugin-title {
+    margin-top: 0;
+    color: #333;
+}
+
+.my-plugin-button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.my-plugin-button:hover {
+    background-color: #005177;
+}
+
+#my-plugin-public-response {
+    margin-top: 10px;
+    font-style: italic;
+}
